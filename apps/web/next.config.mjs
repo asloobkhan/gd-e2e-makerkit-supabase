@@ -1,3 +1,4 @@
+if (!process.env.NEXT_PUBLIC_E2E_FLAG) throw new Error('NEXT_PUBLIC_E2E_FLAG is not set');
 import createNextIntlPlugin from 'next-intl/plugin';
 
 // Create the next-intl plugin with the request config path
